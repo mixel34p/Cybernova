@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="64"
+   height="64"
+   viewBox="45 85 112 112"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
@@ -226,17 +226,6 @@
          style="stroke-width:2.83"
          x="32.94915"
          y="149.18643" /></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:35.2778px;line-height:1.1;font-family:'Terminal Guise';-inkscape-font-specification:'Terminal Guise';text-align:center;letter-spacing:0.0185208px;writing-mode:lr-tb;direction:ltr;text-anchor:middle;fill:#7700bb;fill-opacity:1;stroke:none;stroke-width:0.73;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
-       x="100.79501"
-       y="209.46683"
-       id="text1"><tspan
-         sodipodi:role="line"
-         id="tspan1"
-         style="font-size:35.2778px;fill:#7700bb;fill-opacity:1;stroke:none;stroke-width:0.73;stroke-dasharray:none;stroke-opacity:1"
-         x="100.80428"
-         y="209.46683">Cybernova</tspan></text>
     <path
        sodipodi:type="star"
        style="fill:url(#radialGradient513);fill-opacity:1;stroke:none;stroke-width:0.97307025;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
