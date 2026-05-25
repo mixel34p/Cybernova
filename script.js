@@ -44,7 +44,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const wrapper = document.createElement('div');
     wrapper.className = 'chat-assistant';
     wrapper.innerHTML = `
-      <button type="button" class="chat-toggle" aria-label="Abrir chat de ayuda">IA</button>
+      <button type="button" class="chat-toggle" aria-label="Abrir chat de ayuda">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 9h12M6 13h9M6 17h6" />
+          <path d="M5 4h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-4 3v-3H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+        </svg>
+      </button>
       <section class="chat-widget" aria-live="polite" hidden>
         <header class="chat-widget__header">
           <div>
