@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sandbox online visual de CYBERNOVA para pruebas estéticas de subida de archivos." />
+  <title>CYBERNOVA | Sandbox Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Orbitron:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href=".abacusai/temp/695e8abf-b9af-4d18-82e5-2e51818774f3.svg" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="index.html">
+        <img src=".abacusai/temp/695e8abf-b9af-4d18-82e5-2e51818774f3.svg" alt="CYBERNOVA" />
+        <span class="logo-text">CYBER<span>NOVA</span></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#servicios" data-page="index.html">Servicios</a></li>
+        <li><a href="pricing.html" data-page="pricing.html">Pricing</a></li>
+        <li><a href="sandbox.html" data-page="sandbox.html">Sandbox Online</a></li>
+        <li><a href="index.html#mision">Misión</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Sandbox online CYBERNOVA</h1>
+        <p>Simulación estética de análisis en entorno aislado. Puedes seleccionar y “subir” archivos de hasta 500 MB para ver una prueba visual del flujo.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-grid">
+        <article class="sandbox-panel">
+          <h2>Subida de muestra</h2>
+          <div class="field">
+            <label for="sandbox-file">Selecciona un archivo (máximo 500 MB)</label>
+            <input id="sandbox-file" type="file" />
+          </div>
+          <p id="sandbox-file-meta" class="file-meta">Ningún archivo seleccionado.</p>
+          <button id="sandbox-start" class="btn btn-primary" type="button">Iniciar sandbox</button>
+          <div class="progress-wrap" aria-hidden="true">
+            <div id="sandbox-progress-bar" class="progress-bar"></div>
+          </div>
+          <p id="sandbox-progress-text" class="progress-text">Esperando archivo para iniciar sandbox...</p>
+        </article>
+
+        <article class="sandbox-panel">
+          <h2>Resultado de simulación</h2>
+          <p>Este módulo está diseñado como experiencia visual. No ejecuta análisis real ni almacena archivos.</p>
+          <div id="sandbox-result" class="result-box">La simulación no ejecuta análisis real. Interfaz visual de demostración.</div>
+          <div id="sandbox-chart" class="sandbox-chart" aria-label="Gráfica de riesgo simulada"></div>
+          <div id="sandbox-details" class="sandbox-details"></div>
+          <div class="mission">
+            <h3>Capacidad real de plataforma</h3>
+            <p>El análisis online de CYBERNOVA en entorno productivo opera con capacidades avanzadas, mientras que esta vista representa una prueba estética para la web.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacto">
+    <div class="container footer-layout">
+      <p><strong>CYBERNOVA</strong> · Ciberseguridad avanzada con IA · Empresa operativa</p>
+      <p>Contacto comercial: <a href="mailto:contacto@cybernova.security">contacto@cybernova.security</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
